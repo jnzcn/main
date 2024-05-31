@@ -1,16 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Prox Hub",
-    Text = "Thanks For Exec My Script",
-    Icon = "rbxassetid://17646317550"
-})
 
-wait(3)
-
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Prox Hub",
-    Text = "Loaded Successfully!!!",
-    Icon = "rbxassetid://17646317550"
-})
 --//Fluent
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
